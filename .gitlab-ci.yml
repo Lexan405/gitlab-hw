@@ -8,7 +8,6 @@ build_job:
   stage: build
   script:
     - echo "Build started"
-    - echo "Current directory: $(pwd)"
     - ls -la
 
 test_job:
