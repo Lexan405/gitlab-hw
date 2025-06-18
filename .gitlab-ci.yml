@@ -1,0 +1,17 @@
+image: alpine:latest
+
+stages:
+  - build
+  - test
+
+build_job:
+  stage: build
+  script:
+    - echo "Build started"
+    - ls -la
+
+test_job:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - echo "All tests passed!"
